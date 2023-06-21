@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Giresun"
+        tools:targetApi="31">
+        <activity
+            android:name=".samaksa_sby"
+            android:exported="false" />
+        <activity
+            android:name=".kadayif_sby"
+            android:exported="false" />
+        <activity
+            android:name=".sarma_sby"
+            android:exported="false" />
+        <activity
+            android:name=".siron_sby"
+            android:exported="false" />
+        <activity
+            android:name=".corba_sby"
+            android:exported="false" />
+        <activity
+            android:name=".giresunmuzesi_sby"
+            android:exported="false" />
+        <activity
+            android:name=".tirebolukalesi_sby"
+            android:exported="false" />
+        <activity
+            android:name=".turbe_sby"
+            android:exported="false" />
+        <activity
+            android:name=".giresunkalesi_sby"
+            android:exported="false" />
+        <activity
+            android:name=".hamsilipilav_sby"
+            android:exported="false" />
+        <activity
+            android:name=".findikligullac_sby"
+            android:exported="false" />
+        <activity
+            android:name=".YoreselTatlilar"
+            android:exported="false" />
+        <activity
+            android:name=".YoreselYemekler"
+            android:exported="false" />
+        <activity
+            android:name=".TarihiYerler"
+            android:exported="false" />
+        <activity
+            android:name=".Tarihce"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
